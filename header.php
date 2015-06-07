@@ -24,7 +24,7 @@ $db->query("SET NAMES UTF8"); //da so čžš pravilni
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SmartNinja PHP layout</title>
+    <title>UFO projekt</title>
 
     <link rel="stylesheet" href="stil.css">
 </head>
@@ -33,6 +33,7 @@ $db->query("SET NAMES UTF8"); //da so čžš pravilni
         <nav>
             <ul>
                 <li><a href="index.php">Domov</a></li>
-                <li><a href="novo_videnje.php">Dodaj videnje</a></li>
+                <li><a href="videnje.php">Dodaj videnje</a></li>
+                <li><a href="index.php">Galerija</a></li>
             </ul>
         </nav>
