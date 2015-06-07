@@ -1,0 +1,17 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #98FB98;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+}
