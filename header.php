@@ -33,9 +33,6 @@ $db->query("SET NAMES UTF8"); //da so čžš pravilni
         <nav>
             <ul>
                 <li><a href="index.php">Domov</a></li>
-                <li><a href="videnje.php">Videnje</a></li>
-                <li><a href="dogajanje.php">Dogajanje</a></li>
-                <li><a href="dodaj_videnje.php">Dodaj videnje</a></li>
-
+                <li><a href="novo_videnje.php">Dodaj videnje</a></li>
             </ul>
         </nav>

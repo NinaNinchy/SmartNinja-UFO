@@ -45,7 +45,7 @@
 
         // Vpis v bazo
         if(!$napaka) {
-            $db->query("INSERT INTO videnja (kdaj, lokacija) VALUES ('$kdaj', '$lokacija', 'izgled', 'dogajanje', 'ugrabitev', 'kontakt')");
+            $db->query("INSERT INTO videnja (kdaj, lokacija, izgled, dogajanje, ugrabitev, kontakt) VALUES ('$kdaj', '$lokacija', '$izgled', '$dogajanje', '$ugrabitev', '$kontakt')");
         }
     }
 ?>
@@ -57,14 +57,14 @@
         }
     }
 ?>
-<form action="add.php" method="POST">
-    Naslov članka:<br>
-    <input type="text" name="kdaj"><br>
+<form action="add_ufo.php" method="POST">
+    Naslov videnja:<br>
+    <input type="text" name="lokacija"><br>
     
     Vsebina:<br>
-    <textarea name="lokacija" cols="30" rows="10"></textarea><br>
+    <textarea name="dogajanje" cols="30" rows="10"></textarea><br>
 
-    <input type="submit" value="Dodaj lokacijo" style="margin-bottom: 40px;">
+    <input type="submit" value="Dodaj videnje" style="margin-bottom: 40px;">
 
 </form>
 		
